@@ -1,0 +1,72 @@
+.section-hero {
+    width: 100vw;
+    background-color: var(--very-dark-blue);
+}
+
+.section-hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.section-hero .container > img {
+    display: none;
+}
+
+.section-hero .text {
+    width: 100%;
+    max-width: 45.6rem;
+    height: 44.6rem;
+    background-color: var(--dark-desaturated-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 1rem 0 0 1rem;
+    padding: .5rem;
+}
+
+.section-hero .text .tittle-hero {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.section-hero .text .tittle-hero span {
+    color: var(--soft-violet);
+    letter-spacing: 1.5px;
+}
+
+.section-hero .text p {
+    padding: 2rem;
+    margin: 2rem 0;
+    font-family: 'Lexend Deca';
+    font-size: 1.6rem;
+}
+
+
+.section-hero .data-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 7.8rem;
+}
+
+
+.section-hero .data-text span {
+    color: var(--transparent-white-02);
+    font-size: 1.2rem;
+    letter-spacing: .15rem;
+}
+
+.section-hero .image-mobile {
+    display: none;
+}
+
+.section-hero .image {
+    height: 44.6rem;
+}
+
+.section-hero .image img {
+    border-radius: 0 10px 10px 0;
+}
