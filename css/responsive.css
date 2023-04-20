@@ -67,4 +67,10 @@
     .section-hero .container > img {
         max-width: 100%;
     }
+
+    .section-hero .data-text {
+        width: 80%;
+        padding: .7rem;
+        gap: 2.5rem;
+    }
 }
