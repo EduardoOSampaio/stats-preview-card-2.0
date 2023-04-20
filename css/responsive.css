@@ -42,6 +42,7 @@
         max-width: 100%;
     }
 
+
     .section-hero .container > img {
         max-width: 100%;
     }
@@ -49,12 +50,19 @@
 
 @media (max-width: 400px) {
     html {
-        font-size: 40%;
+        font-size: 45%;
     }
+
 
     .section-hero .text {
         max-width: 100%;
+        padding: .7rem;
     }
+
+    .section-hero .text .tittle-hero {
+        font-size: 3.5rem;
+    }
+
 
     .section-hero .container > img {
         max-width: 100%;
